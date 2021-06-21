@@ -15,10 +15,10 @@
   "devDependencies": {
     "vows": "0.6.x >=0.6.0"
   },
-  "scripts": { 
+  "scripts": {
     "test": "vows test/**/*-test.js --isolate --spec"
   },
   "engines" : {
-     "node" : "0.8.x || 0.9.x"
+     "node" : ">=0.8.x"
   }
 }
